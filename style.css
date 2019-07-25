@@ -4,6 +4,10 @@ body {
     margin: auto;
 }
 
+.image {
+    margin-top: 36px;
+}
+
 .image img {
     height: 291px;
     width: 319px;
