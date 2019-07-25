@@ -1,0 +1,50 @@
+body {
+    background-color: #fce0db;
+    text-align: center;
+    margin: auto;
+}
+
+.image img {
+    height: 291px;
+    width: 319px;
+}
+
+.icon {
+    margin: auto;
+}
+
+.video {
+    margin: auto;
+}
+
+.video h3 {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.video h4 {
+    text-align: center;
+}
+
+.video img {
+    width: 329px;
+    height: 309px;
+}
+
+.video video {
+    height: 160px;
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 328px;
+}
+
+.footer {
+    background: #1d2449;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+}
