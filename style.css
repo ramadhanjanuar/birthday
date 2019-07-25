@@ -13,11 +13,13 @@ body {
     margin: 16px auto;
     width: 92px;
     height: 56px;
-
 }
 
 .wording {
     margin-bottom: 24px;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */    
 }
 
 .wording h3 {
@@ -32,12 +34,15 @@ body {
 
 .video {
     margin: auto;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 .video h3 {
     position: absolute;
     top: 50px;
-    left: 50%;
+    left: 42%;
     transform: translateX(-50%);
     font-size: 20px;
     font-weight: bold;
@@ -75,4 +80,38 @@ body {
 
 .footer span {
     font-size: 12px;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
